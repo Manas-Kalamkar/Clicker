@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Clicker
+    </title>
+    <link rel="stylesheet" href="/project0-clicker/css/clicker.css">
+    <link rel="stylesheet" href="/readytouseshortcut/rainbow-blink.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <header>
+      <h1 class="clicker">
+      Clicker 
+      </h1>
+      <br>
+      <p class="sub-heading">
+      Click to win
+      </p>
+    </header>
+    <section class="challenge-section">
+      Challenge: Set Target=><input id="tellme" type="number" placeholder="- - - - -"><button class="enter">Enter</button> Just Enter and GO!
+    </section>
+    <p class="error-message"></p>
+    <section class="score-section">
+      <div id="pink-score">
+        <p id="pink-score-text">
+        pink's score: <span id="score-of-pink">0</span>
+      </p>
+      </div>
+      <div id="blue-score">
+        <p id="blue-score-text">
+        blue's score: <span id="score-of-blue">0</span>
+      </p>
+      </div>
+      
+    </section>
+    <section class="button-section"> 
+      <button id="pink-button">
+        pink
+        <br>
+        (click 'f')
+      </button>
+      <div id="blue-button">
+        blue
+        <br>
+        (click 'j')
+      </div>
+    </section>
+    <p class="win">
+      Winner: <span id="winner">.....</span>
+    </p>
+    <section class="reset">
+      <button id="reset-button">
+        Reset
+      </button>
+    </section>
+    <script src="/project0-clicker/javascript/clicker.js"></script>
+  </body>
+</html>
